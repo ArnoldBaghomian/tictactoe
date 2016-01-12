@@ -8,26 +8,25 @@ $(document).ready(init);
 function init(){
    
     $('.box').on('click', turnHandler)
+  
     var x = true;
 
 }
 
 function turnHandler(event){
-
-
-
  	 if (x===true){
- 	 	$('h1').text("O's Turn");
+ 	 	console.log("working inside x")
  	 	if($(this).text() !== 'O' && $(this).text() === ''){
-		$(this).text('X');
+		$(this).text('X')
+		$('.turn').text("O's");
 			x = false;
 	 }
-
 		}	
 
 	 else{
 	 	if($(this).text()!=='X' && $(this).text() === ''){
 		$(this).text('O')
+		$('.turn').text("X's");
 		  x = true;
 		
 	}
