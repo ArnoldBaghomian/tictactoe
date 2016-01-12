@@ -1,0 +1,21 @@
+.col-xs-4{
+	width:100px;
+	height:100px;
+	background-color:white;
+	margin:2px;
+	border: 10px solid red;
+	color: black;
+
+
+}
+
+.container{
+	margin:auto;
+	width:30%;
+	padding-top:10%;
+	
+}
+
+box:active{
+
+}
