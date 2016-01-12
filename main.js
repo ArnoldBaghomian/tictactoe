@@ -11,7 +11,6 @@ function init(){
 }
 function turnHandler(event){
  	 if (x===true){
- 	 	console.log("working inside x")
  	 	if($(this).text() !== 'O' && $(this).text() === ''){
 		$(this).text('X')
 		$('.turn').text("O's");
@@ -41,7 +40,8 @@ function winner()
 
 function squareMatrix() {
 
-	squares = [];  // an array of 3 arrays
+	squares = [];  // an array of 3 arrays 
+	
 	$(".row").each(function()
 	{
 		row = [];   // an array of 3 numbers
