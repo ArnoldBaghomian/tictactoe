@@ -23,7 +23,7 @@ function turnHandler(event){
 		$(this).text('O')
 		$('.turn').text("X's");
 		  x = true;	
-	}
+	 }
 }
  winner();
 }
@@ -36,12 +36,13 @@ function winner()
 		alert("X Wins !!! ");
 	else if (rowWin(squares) === -3 ||colWin(squares) === -3 ||diagWin(squares) === -3)
 		alert("O Wins !!! ");
+	
 };
 
 function squareMatrix() {
 
 	squares = [];  // an array of 3 arrays 
-	
+
 	$(".row").each(function()
 	{
 		row = [];   // an array of 3 numbers
@@ -54,6 +55,7 @@ function squareMatrix() {
 		})
 		squares.push(row);  // add this array of three numbers to the array of 3 arrays
 	})
+	
 	return squares;   // squares is a 3x3 matrix, an array of arrays
 }
 

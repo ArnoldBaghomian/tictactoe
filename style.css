@@ -9,7 +9,7 @@
 
 .container{
 	margin:auto;
-	width:30%;
+	width:25%;
 	padding-top:10%;
 	
 }
@@ -27,7 +27,6 @@
 	font-size: 36px;
 	width:100%;
 	text-align:center;
-
 }
 
 .turn{
@@ -37,4 +36,73 @@
 body{
 	background-color: green;
 }
+
+#square1{
+	font-size:20px;
+	color: blue;
+	text-align:center;
+}
+
+#square2{
+	font-size:20px;
+	color: blue;
+	text-align:center;
+}
+
+#square3{
+	font-size:20px;
+	color: blue;
+	text-align:center;
+}
+#square4{
+	font-size:20px;
+	color: blue;
+	text-align:center;
+}
+
+#square5{
+	font-size:20px;
+	color: blue;
+	text-align:center;
+}
+
+#square6{
+	font-size:20px;
+	color: blue;
+	text-align:center;
+}
+
+#square7{
+	font-size:20px;
+	color: blue;
+	text-align:center;
+}
+
+#square8{
+	font-size:20px;
+	color: blue;
+	text-align:center;
+}
+#square9{
+	font-size:20px;
+	color: blue;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
